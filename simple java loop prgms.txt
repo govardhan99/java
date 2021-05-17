@@ -1,0 +1,92 @@
+public class Main
+{
+	public static void main(String[] args) {
+		int a=1;
+		int b=3;
+		if(a>b){
+		    System.out.println("a is greater than b");
+		}
+		else{
+		    System.out.println("b is greater than a");
+		}
+	}
+}
+
+
+WHILE
+
+
+public class Main
+{
+	public static void main(String[] args) {
+
+    int i=10;
+         while(i>1){
+              System.out.println(i);
+              i--;
+         }
+    }
+
+
+
+DO WHILE
+
+
+public class Main{
+
+ public static void main(String args[]){
+         int i=10;
+         do{
+              System.out.println(i);
+              i--;
+         }while(i>1);
+    }
+}
+
+
+
+SWITCH
+
+
+public class Main
+{
+	public static void main(String[] args) {
+		int a=1;
+		int b=3;
+	   switch(1){
+	       case 1: 
+	           System.out.println("it is in a");
+	              break;
+	       case 3:
+	           System.out.println("it is in b");
+	             break;
+	   }
+	
+	}
+}
+
+
+FOR LOOP
+
+public class Main {
+  public static void main(String[] args) {
+
+    int n = 5;
+    
+    for (int i = 1; i <= n; ++i) {
+      System.out.println("HELLO");
+    }
+  }
+}
+
+STRING
+
+public class Main
+{
+	public static void main(String[] args) {
+		char[] ch={'j','a','v','a'};
+		System.out.println(ch);
+		String s="java p";
+		System.out.println(s);
+	}
+}
